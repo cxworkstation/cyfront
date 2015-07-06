@@ -1,0 +1,151 @@
+body{
+	background: url(../img/timebg.jpg) left top fixed;
+}
+#content{
+	padding: 50px 15%;
+}
+.timer{
+}
+.timer h2{
+	width: 92px;
+
+}
+.timer h2 img{
+	display: block;
+	width: 100%;
+}
+.shijianzhou{
+	background: url(../img/time3.png) repeat-y 42px 0;
+}
+.shijianzhou>li{
+	background: url(../img/time2.png) no-repeat 42px 30px;
+	padding:20px 0 0 80px;
+}
+.date{
+	float: left;
+	padding: 0 20px;
+	background: #999;
+	font: bold 1.5em/50px '微软雅黑';
+	text-align: center; 
+	color: white;
+	border-radius: 10px;
+}
+.things{
+	clear:both;
+}
+.things>li{
+	width: 600px;
+	padding: 20px 0;
+
+}
+.now{
+	padding:10px;
+	font-size: 1.5em;
+	background:white;
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.things-photo img{
+	display: block;
+	width: 100%;
+}
+.tosay{
+	position: relative;
+	padding:10px;
+	background:white;
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.zhedang{
+	position:absolute;
+	top: -10px;
+	left: 0;
+}
+.zhedang-left{
+	float: left;
+	height: 10px;
+	width: 100px;
+	background: white;
+}
+.zhedang-center{
+	float: left;
+	border-left:10px solid white;
+	border-right:10px solid white;
+	border-top: 10px solid transparent;
+}
+.zhedang-right{
+	float: left;
+	height: 10px;
+	width: 480px;
+	background: white;
+}
+.tosay-main{
+	text-indent: 2em;
+	font-size: 1.2em;
+	color:#666;
+}
+.tosay-share{
+	text-align: right;
+	padding: 10px 0;
+}
+.tosay-share a{
+	display: inline-block;
+	color: #999;
+	padding: 0 5px 0 20px;
+}
+.tosay-share-like{
+	background: url(../img/like.png) no-repeat left center;
+}
+.tosay-share-comment{
+	background: url(../img/comment.png) no-repeat left center;
+}
+.tosay-share-share{
+	background: url(../img/share.png) no-repeat left center;
+}
+
+#goto-year{
+	position: fixed;
+	top: 130px;
+	left:900px;
+}
+#goto-year a{
+	display: block;
+	background: #00B895;
+	width: 100px;
+	font: 1.2em/2em '微软雅黑';
+	text-align: center;
+	color:#fff;
+}
+#goto-year a:first-child{
+	padding-top: 15px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+#goto-year a:last-child{
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	padding-bottom: 15px;
+}
+#goto-year a:hover,#goto-year a.selected{
+	background: #009175;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
